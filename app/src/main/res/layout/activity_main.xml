@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Username"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="start"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/material_dynamic_primary0"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/material_dynamic_primary0"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_list_books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Books"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/material_dynamic_primary0"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
